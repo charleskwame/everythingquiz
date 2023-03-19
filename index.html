@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Primary Meta Tags -->
+		<title>✏️ Everything Quiz 📚 (Questions from different interests)</title>
+		<meta name="title" content="✏️ Everything Quiz 📚 (Questions from different interests)" />
+		<meta name="description" content="Test your knowledge of anything with ✏️ Everything Quiz 📚. Whatever your interests are, we've got you covered with ✏️ Everything Quiz 📚. " />
+
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://metatags.io/" />
+		<meta property="og:title" content="✏️ Everything Quiz 📚 (Questions from different interests)" />
+		<meta property="og:description" content="Test your knowledge of anything with ✏️ Everything Quiz 📚. Whatever your interests are, we've got you covered with ✏️ Everything Quiz 📚. " />
+		<meta property="og:image" content="https://i.postimg.cc/RC2bpHd6/illustration-of-e-learning-makes-it-easy-for-student-to-learn-distance-learning-with-laptop-and-inte.jpg" />
+
+		<!-- Twitter -->
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content="https://metatags.io/" />
+		<meta property="twitter:title" content="✏️ Everything Quiz 📚 (Questions from different interests)" />
+		<meta property="twitter:description" content="Test your knowledge of anything with ✏️ Everything Quiz 📚. Whatever your interests are, we've got you covered with ✏️ Everything Quiz 📚. " />
+		<meta property="twitter:image" content="https://i.postimg.cc/RC2bpHd6/illustration-of-e-learning-makes-it-easy-for-student-to-learn-distance-learning-with-laptop-and-inte.jpg" />
+
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/styles.css" />
+		<title>✏️ Everything Quiz 📚</title>
+	</head>
+	<body class="bg-slate-100 mx-5 md:mx-20 lg:mx-52">
+		<h1 class="font-bold text-xl md:text-xl text-[#171738] underline underline-offset-[6px] decoration-2 mt-5 decoration-[#171738]">Everything Quiz</h1>
+		<!-- section for selections -->
+		<header class="grid gap-5 mt-4">
+			<!-- section for buttons -->
+			<section class="grid grid-flow-row gap-2 items-center">
+				<!-- creating dropdown button for categories -->
+				<div id="dropdown" class="relative inline-block col-span-2">
+					<button id="dropdownbtn" class="bg-white shadow-md shadow-[#2E294E] cursor-pointer px-5 py-2 text-[#2E294E] font-semibold w-full border-2 border-[#2E294E] text-sm md:text-base">Select Category</button>
+					<div id="thedropdown" class="hidden absolute z-[1] w-full bg-[#2E294E] h-48 overflow-auto">
+						<a href="#" id="link" class="&category=9 px-3 py-2 block hover:font-semibold text-white hover:bg-white hover:text-black text-sm md:text-base">General Knowlegde</a>
+						<a href="#" id="link" class="&category=10 px-3 py-2 block hover:font-semibold text-white hover:bg-white hover:text-black text-sm md:text-base">Entertainment: Books</a>
+						<a href="#" id="link" class="&category=11 px-3 py-2 block hover:font-semibold text-white hover:bg-white hover:text-black text-sm md:text-base">Entertainment: Film</a>
+						<a href="#" id="link" class="&category=12 px-3 py-2 block hover:font-semibold text-white hover:bg-white hover:text-black text-sm md:text-base">Entertainment: Music</a>
+						<a href="#" id="link" class="&category=13 px-3 py-2 block hover:font-semibold text-white hover:bg-white hover:text-black text-sm md:text-base">Entertainment: Musicals & Theatres</a>
+						<a href="#" id="link" class="&category=14 px-3 py-2 block hover:font-semibold text-white hover:bg-white hover:text-black text-sm md:text-base">Entertainment: Television</a>
+						<a href="#" id="link" class="&category=15 px-3 py-2 block hover:font-semibold text-white hover:bg-white hover:text-black text-sm md:text-base">Entertainment: Video Games</a>
+						<a href="#" id="link" class="&category=16 px-3 py-2 block hover:font-semibold text-white hover:bg-white hover:text-black text-sm md:text-base">Entertainment: Board Games</a>
+						<a href="#" id="link" class="&category=29 px-3 py-2 block hover:font-semibold text-white hover:bg-white hover:text-black text-sm md:text-base">Entertainment: Comics</a>
+						<a href="#" id="link" class="&category=31 px-3 py-2 block hover:font-semibold text-white hover:bg-white hover:text-black text-sm md:text-base">Entertainment: Japanese Anime & Manga</a>
+						<a href="#" id="link" class="&category=32 px-3 py-2 block hover:font-semibold text-white hover:bg-white hover:text-black text-sm md:text-base">Entertainment: Cartoon & Animations</a>
+						<a href="#" id="link" class="&category=17 px-3 py-2 block hover:font-semibold text-white hover:bg-white hover:text-black text-sm md:text-base">Science & Nature</a>
+						<a href="#" id="link" class="&category=18 px-3 py-2 block hover:font-semibold text-white hover:bg-white hover:text-black text-sm md:text-base">Science: Computers</a>
+						<a href="#" id="link" class="&category=19 px-3 py-2 block hover:font-semibold text-white hover:bg-white hover:text-black text-sm md:text-base">Science: Mathematics</a>
+						<a href="#" id="link" class="&category=30 px-3 py-2 block hover:font-semibold text-white hover:bg-white hover:text-black text-sm md:text-base">Science: Gadgets</a>
+						<a href="#" id="link" class="&category=20 px-3 py-2 block hover:font-semibold text-white hover:bg-white hover:text-black text-sm md:text-base">Mythology</a>
+						<a href="#" id="link" class="&category=21 px-3 py-2 block hover:font-semibold text-white hover:bg-white hover:text-black text-sm md:text-base">Sports</a>
+						<a href="#" id="link" class="&category=22 px-3 py-2 block hover:font-semibold text-white hover:bg-white hover:text-black text-sm md:text-base">Geography</a>
+						<a href="#" id="link" class="&category=23 px-3 py-2 block hover:font-semibold text-white hover:bg-white hover:text-black text-sm md:text-base">History</a>
+						<a href="#" id="link" class="&category=24 px-3 py-2 block hover:font-semibold text-white hover:bg-white hover:text-black text-sm md:text-base">Politics</a>
+						<a href="#" id="link" class="&category=25 px-3 py-2 block hover:font-semibold text-white hover:bg-white hover:text-black text-sm md:text-base">Art</a>
+						<a href="#" id="link" class="&category=26 px-3 py-2 block hover:font-semibold text-white hover:bg-white hover:text-black text-sm md:text-base">Celebrities</a>
+						<a href="#" id="link" class="&category=27 px-3 py-2 block hover:font-semibold text-white hover:bg-white hover:text-black text-sm md:text-base">Animals</a>
+						<a href="#" id="link" class="&category=28 px-3 py-2 block hover:font-semibold text-white hover:bg-white hover:text-black text-sm md:text-base">Vehicles</a>
+					</div>
+				</div>
+
+				<!-- creating dropdown button for difficulty -->
+				<div id="dropdownDifficulty" class="relative inline-block">
+					<button id="dropdownDifficultyBtn" class="bg-white shadow-md shadow-[#2E294E] cursor-pointer px-5 py-2 text-[#2E294E] font-semibold w-full border-2 border-[#2E294E] text-sm md:text-base">Select Difficulty</button>
+					<div id="theDropdownDifficulty" class="hidden absolute z-[1] w-full bg-[#2E294E] h-fit overflow-auto">
+						<a href="#" id="difficulty" class="&difficulty=easy px-3 py-2 block hover:font-semibold text-white hover:bg-white hover:text-black text-sm md:text-base">Easy</a>
+						<a href="#" id="difficulty" class="&difficulty=medium px-3 py-2 block hover:font-semibold text-white hover:bg-white hover:text-black text-sm md:text-base">Medium</a>
+						<a href="#" id="difficulty" class="&difficulty=hard px-3 py-2 block hover:font-semibold text-white hover:bg-white hover:text-black text-sm md:text-base">Hard</a>
+					</div>
+				</div>
+
+				<!-- creating dropdown button for question type -->
+				<div id="dropdownType" class="relative inline-block">
+					<button id="dropdownTypeBtn" class="bg-white shadow-md shadow-[#2E294E] cursor-pointer px-5 py-2 text-[#2E294E] font-semibold w-full border-2 border-[#2E294E] text-sm md:text-base">Select Question Type</button>
+					<div id="theDropdownType" class="hidden absolute z-[1] w-full bg-[#2E294E] h-fit overflow-auto">
+						<a href="#" id="type" class="&type=boolean px-3 py-2 block hover:font-semibold text-white hover:bg-white hover:text-black text-sm md:text-base">True or False</a>
+						<a href="#" id="type" class="&type=multiple px-3 py-2 block hover:font-semibold text-white hover:bg-white hover:text-black text-sm md:text-base">Multiple Choice Questions</a>
+					</div>
+				</div>
+			</section>
+
+			<button id="getQuestions" class="bg-white text-[#FFD400] w-full px-5 py-2 border-2 border-[#FFD400] font-bold text-sm md:text-base shadow-md shadow-[#FFD400]">Generate Question</button>
+		</header>
+
+		<main class="grid lg:grid-flow-col lg:justify-between mt-5 lg:gap-5">
+			<section id="output" class="px-5 py-5 grid justify-center items-center w-full lg:w-[550px]"></section>
+
+			<!-- display results -->
+			<div class="">
+				<p id="results" class="lg:mt-0 mt-1 px-5 py-2"></p>
+				<p id="cheerOn" class="mt-2 font-bold text-[#171738] text-center"></p>
+				<!-- <p id="keepTrying" class="lg:mt-0 mt-1 text-center font-bold text-[#171738]"></p> -->
+			</div>
+		</main>
+	</body>
+	<script src="index.js"></script>
+	<script src="he.js"></script>
+</html>
